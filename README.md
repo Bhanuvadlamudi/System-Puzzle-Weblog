@@ -1,12 +1,25 @@
 # Insight DevOps Engineering System Puzzle: Weblog
 
 ## Table of Contents
+0. [Flow Diagram](README.md#flow-diagram)
 1. [Understanding the puzzle](README.md#understanding-the-puzzle)
 2. [Introduction](README.md#introduction)
 3. [Puzzle details](README.md#puzzle-details)
 4. [Assignments](README.md#assignments)
 5. [Instructions to submit your solution](README.md#instructions-to-submit-your-solution)
 6. [FAQ](README.md#faq)
+
+
+# Flow Diagram
+
+![System Flow Diagram](flowdiagram.jpg?raw=true "System Flow Diagram")
+
+In a multi-component system following things need to be checked to make sure they work together for producing the end result:
+
+1. Each component is up and in active state - the component is not failing due to lack of resources. 
+2. Different components are connected correctly - the bridge between components is correctly established. 
+3. The interaction between different componets is intact. For ex: the message generated produced by one component can be correctly parsed by the consuming component.
+4. Each component is fully functional as per the functional requirements.
 
 # Understanding the puzzle
 
