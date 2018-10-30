@@ -12,7 +12,7 @@
 
 # Flow Diagram
 
-![System Flow Diagram](flowdiagram.jpg){:height="50%" width="50%"}
+![System Flow Diagram](flowdiagram.jpg)
 
 In a multi-component system following things need to be checked to make sure they work together for producing the end result:
 
